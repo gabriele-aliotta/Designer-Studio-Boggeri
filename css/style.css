@@ -68,8 +68,8 @@ div.grid1{
 /**  sezione studio **/
 div.flex{
     display: flex;
-
-
+    justify-content: space-between;
+    margin-top: 100px;
 }
 
 .testo, .p{
@@ -77,7 +77,7 @@ div.flex{
 }
 
 /** CTA **/
-button{
+.button{
     align-items: center;
     padding: 15px 30px;
     border-radius: 5px;
@@ -85,6 +85,8 @@ button{
     color: white;
     border: none;
     transition-duration: 0.4s;
+    margin-bottom: 50px;
+    font-size: 16px;
 }
 
 button:hover {
@@ -92,8 +94,64 @@ button:hover {
     cursor: pointer;
 }
 
-.button{
-    margin-bottom: 20px;
-    font-size: 16px;
-    
+.cta{
+    text-align: center;
+    margin-bottom: 100px;
 }
+.card{
+    background-color: #D9D9D9;
+    padding: 40px;
+
+}
+
+div.card p{
+    background-color: #D9D9D9;
+}
+
+strong{
+    background-color: #D9D9D9;
+}
+
+h3{
+    background-color: #D9D9D9;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+footer nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+/** titoli pagine **/
+h2{
+    text-align: center;
+}
+
+/** titoli sezione studio **/
+h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/** testo studio **/
+.studio{
+    margin: 0 20px;
+}
+
