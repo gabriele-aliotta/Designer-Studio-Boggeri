@@ -46,3 +46,54 @@ main, footer {
     margin: auto;
     padding: 20px;
 }
+
+/** sezione progetti **/
+div.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin: 40px auto;
+    gap: 35px;
+}
+
+/** sezione designer **/
+div.grid1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin: 40px auto;
+    gap: 35px;
+    max-width: 100%;
+    height: auto;
+}
+
+/**  sezione studio **/
+div.flex{
+    display: flex;
+
+
+}
+
+.testo, .p{
+    width: 50%;
+}
+
+/** CTA **/
+button{
+    align-items: center;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+.button{
+    margin-bottom: 20px;
+    font-size: 16px;
+    
+}
