@@ -4,24 +4,134 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Designers Studio Boggeri</title>
 </head>
+
 <body>
+    <!-- Logo e Nav principale -->
    <header>
-    <h1>Ciao 23</h1>
+        <h1 class="logo"><a href="index.html">Designers Studio Boggeri</a></h1>
+        <nav>
+            <ul>
+                <li><a href="studio.html">Studio</a></li>
+                <li><a href="designers.html">Designer</a></li>
+                <li><a href="projects.html">Progetti</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+   <main>
+        <!-- Card Progetti -->
+        <section class="progetti">
+            <div class="grid">
+                <div class="card">
+                    <a href=""> <img src="immagini/milani/napoli-milani.png" alt=""> </a>
+                    <p> <strong> Napoli </strong><br> Armando Milani, 1984 <br> Poster</p>
+                </div>
+        
+                <div class="card">
+                    <a href=""> <img src="immagini/milani/peace-war-milani.png" alt=""> </a>
+                    <p> <strong>Peace</strong><br>Armando Milani, 2003 <br> Poster </p>
+                </div>
+        
+                <div class="card">
+                    <a href=""> <img src="immagini/milani/ubuntu-milani.png" alt=""> </a>
+                    <p> <strong>Ubuntu</strong> <br>Armando Milani, 2022 <br>Poster </p>
+                </div>
+        
+                <div class="card">
+                    <a href=""> <img src="immagini/Schawinsky/olivetti-xavinski.png" alt=""> </a>
+                    <p> <strong>Olivetti</strong> <br>Xanti Schawinsky, 1934 <br>Poster </p>
+                </div>
+        
+                <div class="card">
+                    <a href=""> <img src="immagini/steiner/cnl-steiner-poster.png" alt=""> </a>
+                    <p> <strong>Mostra della Ricostruzione</strong> <br>Albe Steiner, 1945 <br>Poster  </p>
+                </div>
+        
+                <div class="card">
+                    <a href=""> <img src="immagini/steiner/pirelli-adv-steiner.png" alt=""> </a>
+                    <p> <strong>Contenitori Pirelli </strong><br>Albe Steiner, 1959 <br>Advertising </p>
+                </div>
+            </div>
+            <div class="cta">
+                <a href="projects.html"><button class="button" type="button">Scopri i Progetti</button></a>
+            </div>
+        </section>
+
+    <!-- Sezione che parla dello studio, con img e testo -->
+    <section class="studio">
+        <div class="flex">
+            <div class="testo">
+                <h2>Lo Studio</h2>
+                <p>Fondata nel 1933 da Antonio Boggeri a Milano. Lo Studio Boggeri è un capolavoro nella storia del graphic design, uno dei migliori e più importanti studi di design al mondo. 
+                    Ha collegato la grafica italiana e svizzera come nessuno ha fatto prima di portare i principi moderni alla progettazione grafica. 
+                    </p>     
+            </div>
+
+            <div class="immagine-studio">
+                <img src="immagini/download.png" alt="">
+            </div>
+        </div>
+        <div class="cta">
+            <a href="studio.html"><button class="button" type="button">Scopri lo Studio</button></a>
+        </div>
+    </section>
+
+    <!-- Card Designer -->
+    <section class="designer">
+
+        <h2>I DESIGNERS</h2>
+        <div class="grid1">
+            <div class="card">
+                <a href=""> <img src="immagini/designer/albe-steiner-foto.png" alt=""></a>
+                <h3>Albe Steiner</h3>
+            </div>
+
+            <div class="card">
+                <a href=""> <img src="immagini/designer/erberto_carboni_foto.png" alt=""> </a>
+                <h3>Erberto Carboni</h3>
+            </div>
+
+            <div class="card">
+                <a href=""> <img src="immagini/designer/franco-grignani-foto.png" alt=""> </a>
+                <h3>Franco Grignani</h3>
+            </div>
+
+            <div class="card">
+                <a href=""> <img src="immagini/designer/max-huber.png" alt=""> </a>
+                <h3>Max Huber</h3>
+            </div>
+
+            <div class="card">
+                <a href=""> <img src="immagini/designer/walter-ballmer-foto.png" alt=""> </a>
+                <h3>Walter Ballmer</h3>
+            </div>
+
+            <div class="card">
+                <a href=""> <img src="immagini/designer/Munari.png" alt=""> </a>
+                <h3>Bruno Munari</h3>
+            </div>
+        </div>
+        <div class="cta">
+            <a href="designers.html"><button class="button" type="button">Scopri i Designers</button></a>
+        </div>
+    </section>
+    </main>
+
+   <footer>
+    <p class="logo"><a href="index.html">Designers Studio Boggeri</a></p>
     <nav>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Ci siamo</a></li>
-            <li><a href="#">Contatti</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="studio.html">Studio</a></li>
+            <li><a href="designers.html">Designer</a></li>
+            <li><a href="projects.html">Progetti</a></li>
+            <li><a href="about.html">About</a></li>
         </ul>
     </nav>
-   </header>
-   <main>
-    <section></section>
-   </main>
-   <footer></footer>
+   </footer>
 </body>
 </html>
