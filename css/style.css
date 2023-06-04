@@ -181,6 +181,16 @@ h4{
     margin: 0 20px;
 }
 
+.immagine-studio{
+    width: 30%;
+    padding-left: 100px; 
+}
+
+.immagine-studio2{
+    width: 35%;
+    padding: 0 50px 100px 100px; 
+}
+
 .progetto{
     width: 500px;
     height: auto;
@@ -214,9 +224,16 @@ h4{
 }
 
 .img-designer{
-    width: 85%;
+    width: 80%;
+    margin: 50px 0 0;
+    padding-left: 100px;   
 }
 
 section.hero-designer{
     margin-bottom: 100px;
+}
+
+section.email{
+    margin: 50px 0 50px 50px;
+    line-height: 2;
 }
