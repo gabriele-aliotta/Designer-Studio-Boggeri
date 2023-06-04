@@ -78,6 +78,8 @@ div.flex{
     margin-top: 100px;
 }
 
+
+
 .testo, .p{
     width: 60%;
     font-size: 25px;
@@ -209,4 +211,12 @@ h4{
 .categorie{
     align-items: center;
     padding: 20px;
+}
+
+.img-designer{
+    width: 85%;
+}
+
+section.hero-designer{
+    margin-bottom: 100px;
 }
