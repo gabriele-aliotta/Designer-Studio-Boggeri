@@ -8,6 +8,9 @@
     <title>Progetti</title>
 </head>
 <body>
+
+
+
     <!-- Logo e Nav principale -->
     <header>
         <h1 class="logo"><a href="index.html">Designers Studio Boggeri</a></h1>
@@ -24,14 +27,49 @@
 
 <section class="categorie">
     <h2>Progetti</h2>
-    <nav>
-        <ul>
-            <li><a href="">Poster</a></li>
-            <li><a href="">Marchi</a></li>
-            <li><a href="">Advertising</a></li>
-        </ul>
-    </nav>
-</section>   
+    <button class="pulsante-filtro" data-categoria="categoria-1">Editoria</button>
+    <button class="pulsante-filtro" data-categoria="categoria-2">Advertising</button>
+    <button class="pulsante-filtro" data-categoria="categoria-3">Manifesti</button>
+    <button class="pulsante-filtro" data-categoria="categoria-4">Marchi</button>
+</section>
+
+
+<section class="progetti">
+    <div class="grid">
+
+        <!--Editoria-->
+        <div class="categoria categoria-1 card"> 
+            
+        </div>
+
+        <div class="categoria categoria-1 card"> 
+            
+        </div>
+
+        <!--Advertising-->
+        <div class="categoria categoria-2 card">
+            
+        </div>
+
+        <!--Manifesti-->
+        <div class="categoria categoria-3 card">
+            <a href=""> <img src="immagini/milani/napoli-milani.png" alt=""> </a>
+            <p> <strong> Napoli </strong><br> Armando Milani, 1984 <br> Poster</p>
+        </div>
+
+        <div class="categoria categoria-3 card">
+            <a href=""> <img src="immagini/milani/peace-war-milani.png" alt=""> </a>
+            <p> <strong>Peace</strong><br>Armando Milani, 2003 <br> Poster </p>
+        </div>
+
+        <!--Marchi-->
+        <div class="categoria categoria-4 card">
+
+        </div>
+</div>
+</section>
+
+
        <!-- Card Progetti -->
        <section class="progetti">
         <div class="grid">
@@ -222,6 +260,28 @@
             
         </div>
     </section>
+
+        <!--Js-->
+        <script>
+            function applicaFiltri(categoria) {
+          var categorie = document.getElementsByClassName('categoria');
+          for (var i = 0; i < categorie.length; i++) {
+            var elemento = categorie[i];
+            if (elemento.classList.contains(categoria)) {
+              elemento.style.display = 'block';
+            } else {
+              elemento.style.display = 'none';
+            }
+          }
+        }
+        var pulsantiFiltro = document.getElementsByClassName('pulsante-filtro');
+        for (var i = 0; i < pulsantiFiltro.length; i++) {
+          pulsantiFiltro[i].addEventListener('click', function() {
+            var categoria = this.getAttribute('data-categoria');
+            applicaFiltri(categoria);
+          });
+        }
+          </script>
 
     <footer>
         <p><a href="index.html">Designers Studio Boggeri</a></p>
