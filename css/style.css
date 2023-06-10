@@ -10,6 +10,10 @@ img{
     height: auto;
 }
 
+a{
+    color: black;
+}
+
 
 header a{
     text-decoration: none;
