@@ -2,7 +2,7 @@
     font-family: Helvetica, sans serif;
     margin: 0;
     padding: 0;
-    background-color: white;
+
 }
 
 img{
@@ -110,6 +110,7 @@ section.progetto p{
     color: white;
     border: none;
     transition-duration: 0.4s;
+    margin-top: 75px;
     margin-bottom: 50px;
     font-size: 16px;
 }
@@ -180,6 +181,10 @@ h4{
 .studio{
     margin: 0 20px;
 }
+.flex .testo{
+    margin: 0 20px;
+    padding-top: 10%;
+}
 
 .immagine-studio{
     width: 30%;
@@ -187,8 +192,9 @@ h4{
 }
 
 .immagine-studio2{
-    width: 35%;
+    width: 40%;
     padding: 0 50px 100px 100px; 
+    padding-top: 9%;
 }
 
 .progetto{
@@ -201,20 +207,20 @@ h4{
 }
 
 button.pulsante-filtro {
-    padding: 10px 20px;
-    margin-right: 10px;
+    padding: 10px 3px;
+    margin-right: 40px;
     background: none;
 	color: inherit;
 	border: none;
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
-   
-  }
+   }
   
   button.pulsante-filtro:hover {
     color: red;
-  }
+    box-shadow: none;
+    }
 
 .categorie{
     align-items: center;
