@@ -129,17 +129,17 @@ button:hover {
     margin-bottom: 100px;
 }
 .card{
-    background-color: #D9D9D9;
+    background-color: #F0F0F0;
     padding: 20pt;
 
 }
 
 div.card p{
-    background-color: #D9D9D9;
+    background-color: #F0F0F0;
 }
 
 strong{
-    background-color: #D9D9D9;
+    background-color: #F0F0F0;
 }
 
 footer{
@@ -251,7 +251,7 @@ section.email{
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
   }
-  
+
 a:hover {
     text-decoration: underline;
   }
@@ -403,6 +403,14 @@ a:hover {
     .hamburger-lines {
       opacity: 100;
     }
-  }
-  
 
+    .studio p{
+        font-size: 20px;
+        width: 150%;
+    }
+    .immagine-studio{
+        display: none;
+    }
+
+   
+}
