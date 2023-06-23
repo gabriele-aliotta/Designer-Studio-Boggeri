@@ -390,6 +390,10 @@ a:hover {
       margin-top: 20px;
       gap: 10px;
     }
+
+    header nav ul{
+      display: none;
+    }
   
     nav ul a {
       display: block;
