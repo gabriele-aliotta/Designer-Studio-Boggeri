@@ -498,9 +498,13 @@ a:hover {
     padding-left: 50px; 
     }
 
-    section.progetto img{
+    section.progetto {
       margin: 0;
-      padding: 0;
+      padding: 50px;
       box-sizing: border-box;
     }
+
+ footer nav ul li {
+  display: block;
+ }
 }
