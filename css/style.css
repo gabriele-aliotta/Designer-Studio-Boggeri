@@ -152,7 +152,7 @@ button:hover {
     text-align: center;
     margin-bottom: 100px;
 }
-.card{
+.foto,.card{
     background-color: #F0F0F0;
     padding: 20pt;
 
@@ -390,6 +390,51 @@ a:hover {
     cursor: pointer;
   }
   
+  .filtro {
+    display: flex;
+    margin-bottom: 32px;
+    margin-top: 20px;
+    justify-content: space-between;
+    padding-bottom: 16px;
+
+}
+
+.filtro p {
+    margin: 0;
+    padding: 0;
+}
+
+.filtro ul {
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+    display: flex;
+    gap: 16px;
+}
+
+.filtro ul a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.nascosta {
+    display: none;
+  }
+
+.mostra {
+    display: block;
+}
+
+.filtro a.active {
+    font-weight: bold;
+}
+
+.filtro ul a:hover{
+    color: red;
+  
+}
+
   /* MOBILE */
   
   @media only screen and (max-width: 600px) {
