@@ -450,7 +450,8 @@ a:hover {
     nav {
       width: 100%;
     }
-    nav ul {
+    
+    header nav ul {
       flex-direction: column;
       opacity: 0;
       text-align: left;
@@ -460,10 +461,7 @@ a:hover {
       gap: 10px;
     }
 
-    header nav ul{
-      display: none;
-    }
-  
+
     nav ul a {
       display: block;
     }
@@ -504,7 +502,19 @@ a:hover {
       box-sizing: border-box;
     }
 
- footer nav ul li {
+ footer  {
+  font-size: 18px;
   display: block;
+  justify-content: space-between;
  }
+
+ footer .logo{
+  padding-bottom: 20px;
+ }
+
+ .button-cta{
+  margin: 20px;
+ }
+
+
 }
