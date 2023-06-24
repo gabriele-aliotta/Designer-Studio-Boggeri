@@ -1,17 +1,41 @@
+@font-face {
+  font-family: "firstfont";
+  src: url(../font/SpaceGrotesk-Regular.woff2); 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "firstfont";
+  src: url(../font/SpaceGrotesk-Bold.woff2); 
+  font-style: normal;
+  font-weight: bold;
+}
+
 *{
-    font-family: Helvetica, sans serif;
+    font-family: "firstfont";
+    font-weight: medium;
     margin: 0;
     padding: 0;
-
+  
 }
 
 img{
     max-width: 100%;
     height: auto;
+    margin-bottom: 10px;
 }
 
 a{
     color: black;
+}
+
+div.testo, section.testo-progetto {
+  line-height: 150%;
+
+}
+
+div.testo h2, section.testo-progetto h2{
+  margin-bottom: 15px;
 }
 
 
@@ -84,7 +108,7 @@ div.flex{
 
 
 
-.testo, .p{
+.testo{
     width: 60%;
     font-size: 25px;
     margin-bottom: 50px;
@@ -211,9 +235,9 @@ h4{
 }
 
 button.pulsante-filtro {
-    padding: 10px 3px;
-    margin-right: 40px;
-    background: none;
+  padding: 10px 3px;
+  margin-right: 40px;
+  background: none;
 	color: inherit;
 	border: none;
 	font: inherit;
@@ -415,4 +439,23 @@ a:hover {
     .immagine-studio{
         display: none;
     }  
+
+    div.flex{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+    div.testo p{
+      width: 25ch;
+    }
+
+    img.img-designer{
+    padding-left: 50px; 
+    }
+
+    section.progetto img{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 }
