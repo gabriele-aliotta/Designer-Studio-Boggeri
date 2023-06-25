@@ -500,13 +500,28 @@ a:hover {
       opacity: 100;
     }
 
-    .studio p{
-        font-size: 20px;
-        width: 150%;
+    section p{
+      font-size: 18px;
+      width: 150%;
+      line-height: 1.5em;
     }
+
+    .img-designer{
+      display: none;
+    }
+
     .immagine-studio{
         display: none;
     }  
+
+    .immagine-studio2{
+      display: none;
+  }  
+
+  .testo-progetto{
+    width: 55%;
+  }
+
 
     div.flex{
       display: grid;
@@ -514,7 +529,7 @@ a:hover {
     }
 
     div.testo p{
-      width: 25ch;
+      width: 40ch;
     }
 
     img.img-designer{
