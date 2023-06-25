@@ -116,6 +116,10 @@ div.flex{
     margin-left: 20px;
 }
 
+.testo p{
+ margin-bottom: 5%;
+}
+
 .testo-progetto{
     width: 80%;
     font-size: 25px;
