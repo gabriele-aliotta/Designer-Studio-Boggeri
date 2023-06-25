@@ -55,12 +55,14 @@ header h1{
     font-weight: bold;
     text-transform: uppercase;
     font-size:large ;
+    font-family: Helvetica;
 }
 
 header nav ul{
     list-style-type: none;
     display: flex;
     gap: 30px;
+    margin-right: 50px;
 }
 
 header{
@@ -68,12 +70,19 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
 }
 
 main, footer {
     max-width: 1200px;
     margin: auto;
     padding: 20px;
+}
+
+main{
+  padding-top: 116px;
 }
 
 /** sezione progetti **/
@@ -95,7 +104,7 @@ div.grid1{
 }
 
 section.designer h2{
-    text-align: center;
+    margin-left: 5%;
     margin-top: 50px;
 }
 
@@ -354,6 +363,7 @@ a:hover {
     flex-direction: column;
     justify-content: space-between;
     opacity: 0;
+    margin-right: 25px;
   }
   
   .hamburger-lines .line {
