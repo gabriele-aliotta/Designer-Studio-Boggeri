@@ -506,6 +506,7 @@ a:hover {
       line-height: 1.5em;
     }
 
+
     .img-designer{
       display: none;
     }
@@ -522,6 +523,9 @@ a:hover {
     width: 55%;
   }
 
+  .progetto img{
+    width: 70%;
+  }
 
     div.flex{
       display: grid;
@@ -530,6 +534,10 @@ a:hover {
 
     div.testo p{
       width: 40ch;
+    }
+
+    div p{
+      display: inline;
     }
 
     img.img-designer{
@@ -555,6 +563,8 @@ a:hover {
  .button-cta{
   margin: 20px;
  }
+
+
 
 
 }
