@@ -11,12 +11,29 @@
   font-weight: bold;
 }
 
+
 *{
-    font-family: "firstfont";
+  
     font-weight: medium;
     margin: 0;
     padding: 0;
   
+}
+
+
+
+p{
+  font-family: "firstfont";
+}
+
+
+
+p.logo{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1.logo{
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 img{
@@ -27,8 +44,16 @@ img{
 
 a{
     color: black;
+    
 }
 
+#filtro{
+  font-family: "firstfont";
+}
+
+main h2{
+  font-family: "firstfont";
+}
 div.testo, section.testo-progetto {
   line-height: 150%;
 
@@ -42,6 +67,7 @@ div.testo h2, section.testo-progetto h2{
 header a{
     text-decoration: none;
     color: black;
+    
 }
 
 header a:hover{
@@ -63,6 +89,7 @@ header nav ul{
     display: flex;
     gap: 30px;
     margin-right: 50px;
+    font-family: "firstfont";
 }
 
 header{
@@ -101,11 +128,13 @@ div.grid1{
     gap: 35px;
     max-width: 90%;
     height: auto;
+    font-family: "firstfont";
 }
 
 section.designer h2{
     margin-left: 5%;
     margin-top: 50px;
+    font-family: "firstfont";
 }
 
 /**  sezione studio **/
@@ -113,11 +142,13 @@ div.flex{
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
+    font-family: "firstfont";
 }
 
 div.flex-designer{
   display: flex;
   justify-content: space-between;
+  font-family: "firstfont";
 }
 
 .hero-designer{
@@ -130,14 +161,17 @@ div.flex-designer{
     margin-bottom: 50px;
     line-height: 150%;
     margin-left: 20px;
+    font-family: "firstfont";
 }
 
 .testo p{
  margin-bottom: 5%;
+ font-family: "firstfont";
 }
 
 .testo-progetto p{
   margin-bottom: 5%;
+  font-family: "firstfont";
 }
 
 .testo-progetto{
@@ -146,11 +180,13 @@ div.flex-designer{
     line-height: 150%;
     margin-left: 50px;
     margin-top: 100px;
+    font-family: "firstfont";
 }
 
 
 section.progetto p{
     font-size: 20px;
+    font-family: "firstfont";
 }
 
 /** CTA **/
@@ -184,10 +220,12 @@ button:hover {
 
 div.card p{
     background-color: #F0F0F0;
+    font-family: "firstfont";
 }
 
 strong{
     background-color: #F0F0F0;
+    font-family: "firstfont";
 }
 
 footer{
@@ -201,6 +239,7 @@ footer nav ul{
     list-style-type: none;
     display: flex;
     gap: 30px;
+    font-family: "firstfont";
 }
 
 footer a{
@@ -413,6 +452,7 @@ a:hover {
     margin-top: 20px;
     justify-content: space-between;
     padding-bottom: 16px;
+   
 
 }
 
@@ -458,6 +498,8 @@ a:hover {
     .checkbox {
       display: block;
     }
+
+  
   
     header {
       flex-direction: column;
@@ -493,9 +535,16 @@ a:hover {
     }
 
     section p{
-      font-size: 18px;
-      width: 150%;
+      font-size: 14px;
+      width: 100%;
       line-height: 1.5em;
+    }
+
+    div.testo p{
+      font-size: 14px;
+      width: 100%;
+      line-height: 1.5em;
+    
     }
 
     section.progetto p{
@@ -516,7 +565,8 @@ a:hover {
   }  
 
   .testo-progetto{
-    width: 55%;
+    width: 85%;
+   
   }
 
   .progetto img{
@@ -526,19 +576,30 @@ a:hover {
     div.flex{
       display: grid;
       grid-template-columns: 1fr;
+      width: 100%;
+     
     }
 
     div.testo p{
       width: 40ch;
+      
+     
+    }
+
+    div.testo{
+      width: 90%;
+      line-height: 1em;
+      
     }
 
     div.flex-designer{
       max-width:fit-content;
-      width: 50ch;
+      width: 40ch;
     }
 
     div p{
       display: inline;
+      
     }
 
     img.img-designer{
@@ -553,7 +614,7 @@ a:hover {
     }
 
  footer  {
-  font-size: 18px;
+  font-size: 16px;
   display: block;
   justify-content: space-between;
  }
