@@ -499,8 +499,10 @@ a:hover {
       display: block;
     }
 
-  
-  
+    input.checkbox{
+      margin-right: 5%;
+    }
+
     header {
       flex-direction: column;
       align-items: start;
@@ -529,9 +531,14 @@ a:hover {
       opacity: 100;
       display: flex;
     }
+
+    .logo{
+      font-size: 18px;
+    }
   
     .hamburger-lines {
       opacity: 100;
+      padding-right: 3%;
     }
 
     section p{
@@ -625,6 +632,10 @@ a:hover {
 
  .button-cta{
   margin: 20px;
+ }
+
+ .filtro{
+  font-size: 13px;
  }
 
 
