@@ -141,7 +141,6 @@ section.designer h2{
 div.flex{
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
     font-family: "firstfont";
 }
 
@@ -172,6 +171,24 @@ div.flex-designer{
 .testo-progetto p{
   margin-bottom: 5%;
   font-family: "firstfont";
+}
+
+.testo-progetto-about p{
+  margin-bottom: 5%;
+  font-family: "firstfont";
+}
+
+.testo-progetto-about{
+  width: 80%;
+  font-size: 25px;
+  line-height: 150%;
+  margin-left: 50px;
+  margin-top: 25px;
+  font-family: "firstfont";
+}
+
+.testo-progetto-about h2{
+  margin-bottom: 2%;
 }
 
 .testo-progetto{
@@ -582,9 +599,7 @@ a:hover {
 
     div.flex{
       display: grid;
-      grid-template-columns: 1fr;
-      width: 100%;
-     
+      grid-template-columns: 1fr; 
     }
 
     div.testo p{
@@ -595,8 +610,12 @@ a:hover {
 
     div.testo{
       width: 90%;
-      line-height: 1em;
+      line-height: 0.5em;
       
+    }
+
+    div.testo h2{
+     margin-bottom: 10%;
     }
 
     div.flex-designer{
@@ -637,6 +656,26 @@ a:hover {
  .filtro{
   font-size: 13px;
  }
+
+ .testo-progetto-about{
+  width: 75%;
+  font-size: 25px;
+  line-height: 150%;
+  margin-left: 50px;
+  margin-top: 25px;
+  font-family: "firstfont";
+}
+
+.testo-progetto-about h2{
+  margin-bottom: 5%;
+}
+
+.studio{
+  margin-bottom: 20%;
+
+}
+
+
 
 
 
