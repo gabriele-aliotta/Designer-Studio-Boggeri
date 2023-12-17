@@ -227,7 +227,7 @@ button:hover {
 
 .cta-container{
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
 .foto,.card{
     background-color: #F0F0F0;
@@ -236,13 +236,21 @@ button:hover {
 }
 
 div.card p{
-    background-color: #F0F0F0;
     font-family: "firstfont";
 }
 
 strong{
-    background-color: #F0F0F0;
     font-family: "firstfont";
+}
+
+.card:hover,div.card:hover,.foto:hover{
+  background-color: #827f7f;
+  color: white;
+  font-family: "firstfont";
+}
+
+.imgdesigner:hover{
+  border: 1.2px solid black;
 }
 
 footer{
@@ -311,7 +319,7 @@ h4{
     align-items: center;
     margin: 0 auto;
     padding: 100px 0;
-    margin: 200px;
+    margin: 70px 200px 70px 200px;
 }
 
 button.pulsante-filtro {
@@ -395,6 +403,15 @@ a:hover {
   nav ul a {
     color:black;
     text-decoration: none;
+  }
+
+  .nav-bold-studio,.nav-bold-designer,.nav-bold-project,.nav-bold-about{
+    font-weight: bold;
+    color: red;
+  }
+
+  nav:active {
+    color: red;
   }
   
   /* CSS PER HAMBURGER MENU */
