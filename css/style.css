@@ -349,6 +349,10 @@ button.pulsante-filtro {
     padding-left: 100px;   
 }
 
+.grassetto:hover{
+  font-weight: bold;
+}
+
 section.hero-designer{
     margin-bottom: 100px;
 }
